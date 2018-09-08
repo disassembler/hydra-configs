@@ -15,6 +15,7 @@ let
     inputs = {
       nixos-configs = mkFetchGithub "https://github.com/disassembler/network master";
       nixpkgs-unstable = mkFetchGithub "https://github.com/nixos/nixpkgs-channels.git nixos-unstable";
+      nixdarwin-unstable = mkFetchGithub "https://github.com/LnL7/nix-darwin.git master";
       nixpkgs-stable = mkFetchGithub "https://github.com/nixos/nixpkgs-channels.git nixos-18.09";
     };
   };
