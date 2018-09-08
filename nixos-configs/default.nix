@@ -14,7 +14,7 @@ let
     description = "nixos-configs";
     inputs = {
       nixos-configs = mkFetchGithub "https://github.com/disassembler/network master";
-      nixpkgs = mkFetchGithub "https://github.com/nixos/nixpkgs-channels.git nixos-unstable-small";
+      nixpkgs = mkFetchGithub "https://github.com/nixos/nixpkgs-channels.git nixos-18.09";
     };
   };
   jobsetsAttrs = { inherit nixos-configs; };
