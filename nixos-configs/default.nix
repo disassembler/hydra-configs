@@ -17,6 +17,7 @@ let
       nixpkgs-unstable = mkFetchGithub "https://github.com/nixos/nixpkgs-channels.git nixos-unstable";
       nixdarwin-unstable = mkFetchGithub "https://github.com/LnL7/nix-darwin.git master";
       nixpkgs-stable = mkFetchGithub "https://github.com/nixos/nixpkgs-channels.git nixos-18.09";
+      nixpkgs = mkFetchGithub "https://github.com/nixos/nixpkgs-channels.git nixos-18.09";
     };
   };
   jobsetsAttrs = { inherit nixos-configs; };
